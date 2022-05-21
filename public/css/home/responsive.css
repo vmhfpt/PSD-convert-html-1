@@ -1,0 +1,106 @@
+@media only screen and (max-width: 1024px) {
+    .col__description {
+        margin-top: 12px;
+    }
+    .container,.container__check-out,.container__about-content {
+        width : 90%;
+    }
+    .container__assistance  {
+        width : 100%;
+    }
+    .owl-carousel {
+        width : 90% !important;
+    }
+    .answers {
+        text-align: center;
+         float : none ;
+         width: 100%;
+         line-height: 34px;
+     }
+     .button_assistance {
+        text-align: center;
+        float : none;
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .top-bar {
+        display: flex;
+      
+        justify-content: center;
+       
+        width: 100%;
+       
+        background:url(https://www.machothemes.com/wp-content/uploads/2018/01/mt-hero-black.jpg) ;
+        background-size:100% 300px;
+       padding-bottom: 20px;
+       
+    }
+    .top-bar__description h1 {
+       
+        font-size: 27px;
+     }
+     .top-bar__description strong {
+        font-size: 14px;
+     }
+    .col__description {
+        margin-top: 12px;
+    }
+    .container, .container__check-out {
+        width : 90%;
+    }
+    .top-bar__list {
+        display: none;
+    }
+ .top-bar__logo {
+     margin-left : 34%;
+   
+ }
+ .check-out__left {
+    float : none;
+    height: 100px;
+}
+.check-out__right {
+    float : none;
+}
+.check-out__right img {
+    width: 100%;
+    max-width: 960px
+}
+.container__about-us, .container__about-content, .container__assistance {
+    width : 100%;
+}
+.about-content li{
+    margin: 0;
+ width: 100%;
+    float : none;
+    list-style: none;
+    
+}
+.about-content h3 {
+    text-align: center !important;
+}
+.answers {
+   text-align: center;
+    float : none ;
+    width: 100%;
+    line-height: 34px;
+}
+.button_assistance {
+    text-align: center;
+    float : none;
+    width: 100%;
+}
+.owl-carousel {
+    width : 90% !important;
+}
+.list-footer>ul>li {
+     text-align: center;
+    float : none;
+    margin-left : 0;
+}
+}
+
